@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 const Game = () => {
   return (
-    <div className="h-screen bg-cover bg-center" style={{ backgroundImage: "url('/BgWPP.jpeg')" }}
+    <div className="h-screen bg-cover bg-center" style={{ backgroundImage: "url('/portofolio/BgWPP.jpeg')" }}
 
 
 >
@@ -39,7 +39,7 @@ const Game = () => {
         >
           <img 
             className="w-full h-60 object-cover rounded-lg transform transition duration-500 hover:scale-105 mt-16" 
-            src="/wuwa.jpg" 
+            src="/portofolio/wuwa.jpg" 
             alt="Game"
           />
         </motion.div>

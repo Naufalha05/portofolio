@@ -10,7 +10,7 @@ const App = () => {
     <Router basename="/portofolio">
       <div 
         className="h-screen bg-cover bg-center" 
-        style={{ backgroundImage: "url('/BgWPP.jpeg')" }}
+        style={{ backgroundImage: "url('/portofolio/BgWPP.jpeg')" }}
 
       >
         <Routes>
