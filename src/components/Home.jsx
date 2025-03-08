@@ -5,7 +5,8 @@ import CardList from "./CardList";
 
 const Home = () => {
   return (
-    <div className="h-screen bg-cover bg-center"  style={{ backgroundImage: "url('./assets/BgWPP.jpeg')" }}
+    <div className="h-screen bg-cover bg-center"  style={{ backgroundImage: "url('/portofolio/BgWPP.jpeg')" }}
+
 
 >
       <nav className="container mx-auto flex justify-between items-center p-4">
