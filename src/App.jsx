@@ -7,8 +7,11 @@ import OnePiece from "./components/OnePiece";
 
 const App = () => {
   return (
-    <Router>
-      <div className="h-screen bg-cover bg-center" style={{ backgroundImage: "url('/portofolio/BgWPP.jpeg')" }}>
+    <Router basename="/portofolio">
+      <div 
+        className="h-screen bg-cover bg-center" 
+        style={{ backgroundImage: "url('/BgWPP.jpeg')" }} 
+      >
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<AboutMe />} />
