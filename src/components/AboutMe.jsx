@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 const AboutMe = () => {
   return (
-    <div className="h-screen bg-cover bg-center" style={{ backgroundImage: "url('/BgWPP.jpeg')" }}
+    <div className="h-screen bg-cover bg-center" style={{ backgroundImage: "url('BgWPP.jpeg')" }}
 >
       <nav className="container mx-auto flex justify-between items-center p-4">
         <h1 className="text-white text-xl font-bold flex items-center space-x-2">
@@ -37,7 +37,7 @@ const AboutMe = () => {
         >
           <motion.img 
             className="w-52 h-80 object-cover rounded-lg shadow-lg filter brightness-86"
-            src="/fotodiri.png" 
+            src="fotodiri.png" 
             alt="Foto Diri"
             animate={{ scale: [1, 1.1, 1] }} 
             transition={{ repeat: Infinity, duration: 2, ease: "easeInOut" }}
