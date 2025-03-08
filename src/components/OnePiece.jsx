@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 const OnePiece = () => {
   return (
-    <div className="h-screen bg-cover bg-center" style={{ backgroundImage: "url('/portofolio/BgWPP.jpeg')" }}
+    <div className="h-screen bg-cover bg-center" style={{ backgroundImage: "url('/BgWPP.jpeg')" }}
 
 
 >
@@ -39,7 +39,7 @@ const OnePiece = () => {
         >
           <img 
             className="w-full h-60 object-cover rounded-lg transform transition duration-500 hover:scale-105 mt-6" 
-            src="./assets/luffy.jpg" 
+            src="/luffy.jpg" 
             alt="One Piece"
           />
         </motion.div>
